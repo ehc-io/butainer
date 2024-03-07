@@ -13,4 +13,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 apt-get install -y autojump
-curl -s https://gist.githubusercontent.com/ehc-io/52a3549eb17dda934925149b9048f566/raw/ac4ab8a96dd65a50506293c200de29533ff1b1bb/zshrc -o $HOME/.zshrc
+curl -s -o https://gist.githubusercontent.com/ehc-io/52a3549eb17dda934925149b9048f566/raw/c92738028c1a481956fea8e21483109a35c9f6a3/zshrc $HOME/.zshrc
